@@ -37,7 +37,7 @@ h1{
     display: flex;
     align-items: center;
 }
-h2{
+.two h2{
     margin-top: 100px;
     text-align: center;
     color:aliceblue;
@@ -59,4 +59,15 @@ h2{
 }
 .about{
     background-color:#b6e0ff;
+    text-align: center;
+}
+.hjk{
+    padding-top: 100px;
+    color:black;
+}
+.fgh{
+    width: 100px;
+    margin-left: 535px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
