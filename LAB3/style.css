@@ -79,11 +79,11 @@ img{
 }
 .zagal{
     display: flex;
-    margin-left: -40px;
+    margin-left: -24px;
 
 }
 .zagal div{
-    margin-left: 80px;
+    margin-left: 0px;
 }
 .zagal div h5{
     color:blue;
@@ -101,11 +101,23 @@ h6{
     
 }
 .zagal1{
-    padding-right: 10px;
+    margin-right: -5px;
 }
 .zagal2{
-    padding-right: 10px;
+    margin-right: -8px;
 }
 .zagal3{
-    padding-right: 12px;
+    margin-right: 0px;
+}
+.poi{
+    width: 6%;
+}
+.pou{
+    width: 6%;
+}
+.poy{
+    width: 6%;
+}
+.pot{
+    width: 6%;
 }
