@@ -42,8 +42,18 @@ h2{
     text-align: center;
     color:aliceblue;
     margin-bottom: 50px;
+    line-height: 30px;
 }
 .btn{
-    display: block;
+    display: inline-block;
+    background-color: orange;
+    color:aliceblue;
+    padding: 1rem 1.5rem;
     text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 100px;
+    
+}
+.two{
+    text-align: center;
 }
