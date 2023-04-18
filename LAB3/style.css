@@ -46,7 +46,7 @@ h2{
 }
 .btn{
     display: inline-block;
-    background-color: orange;
+    background-color: #ff7b00;
     color:aliceblue;
     padding: 1rem 1.5rem;
     text-decoration: none;
@@ -56,4 +56,7 @@ h2{
 }
 .two{
     text-align: center;
+}
+.about{
+    background-color:#b6e0ff;
 }
