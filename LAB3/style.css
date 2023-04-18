@@ -6,3 +6,15 @@
     background-color: blueviolet;
     
 }
+header a{
+    color:aliceblue;
+}
+h1{
+    color:aliceblue;
+}
+.menu{
+    display:flex;
+}
+.menu li a{
+    text-transform: uppercase;
+}
