@@ -1,3 +1,6 @@
+ul,li{
+    display: block;
+}
 .conteiner{
     width: 1170px;
     margin: auto;
@@ -17,4 +20,8 @@ h1{
 }
 .menu li a{
     text-transform: uppercase;
+    text-decoration: none;
+}
+.one{
+    display: flex;
 }
