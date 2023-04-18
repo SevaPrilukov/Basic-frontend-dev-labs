@@ -17,11 +17,17 @@ h1{
 }
 .menu{
     display:flex;
+    margin-left: auto;
 }
 .menu li a{
     text-transform: uppercase;
     text-decoration: none;
+    margin-left: 40px;
 }
 .one{
     display: flex;
+    align-items: center;
+}
+h2{
+    align-items: center;
 }
