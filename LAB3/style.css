@@ -90,7 +90,11 @@ img{
 }
 .zagal div h1{
     color: black;
+    margin-bottom: 10px;
 }
-.rich{
+h6{
     color:black;
+}
+.zagal div h6{
+    margin-top: 20px;
 }
