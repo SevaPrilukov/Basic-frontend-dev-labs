@@ -15,7 +15,7 @@ ul,li{
     margin: auto;
 }
 .header{
-    background-color: blueviolet;
+    background-color: #86509c;
     
 }
 header a{
@@ -46,7 +46,7 @@ h1{
 }
 .btn{
     display: inline-block;
-    background-color: #ff7b00;
+    background-color: #ea7c4b;
     color:aliceblue;
     padding: 1rem 1.5rem;
     text-decoration: none;
@@ -58,7 +58,7 @@ h1{
     text-align: center;
 }
 .about{
-    background-color:#b6e0ff;
+    background-color:#e7f1f8;
     text-align: center;
 }
 .hjk{
@@ -86,7 +86,7 @@ img{
     margin-left: 0px;
 }
 .zagal div h5{
-    color:blue;
+    color:#76ceec;
 }
 .zagal div h1{
     color: black;
