@@ -123,7 +123,27 @@ h6{
 }
 .shapka{
     text-align: center;
+    color:aliceblue;
 }
 .footer{
     background-color: #3c5499;
+}
+.form input{
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+input{
+    border: 0;
+    font-size: 12px;
+    background-color: #273971;
+    color:azure;
+}
+.form{
+    margin-left: 295px;
+    margin-top: 50px;
+}
+.shapka h1{
+    color:aliceblue;
 }
