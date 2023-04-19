@@ -186,3 +186,18 @@ input{
 .foot{
     background-color: #344b8d;
 }
+.vat{
+    color:aliceblue;
+    margin-right: 50px;
+    line-height: 50px;
+    margin-left: 50px;
+}
+.menu1{
+    display: flex;
+}
+.vot{
+    color: #31b6e5;
+    margin-right: 50px;
+    line-height: 50px;
+    margin-left: 50px;
+}
