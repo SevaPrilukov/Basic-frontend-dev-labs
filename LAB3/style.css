@@ -25,6 +25,9 @@ header a{
 h1{
     color:aliceblue;
 }
+.one h1{
+    font-family: 'Playball', cursive;
+}
 .menu{
     display:flex;
     margin-left: auto;
