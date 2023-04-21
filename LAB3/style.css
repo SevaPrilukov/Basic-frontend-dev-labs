@@ -19,6 +19,9 @@ ul,li{
     background-color: #86509c;
     
 }
+.poo{
+    width: 17%;
+}
 header a{
     color:aliceblue;
 }
@@ -31,6 +34,7 @@ h1{
 .menu{
     display:flex;
     margin-left: auto;
+    margin-top: 40px;
 }
 .menu li a{
     text-transform: uppercase;
