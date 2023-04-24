@@ -77,10 +77,11 @@ ul,li{
 .conteiner p{
     font-size: 64px;
     margin-top: 228px;
+    margin-bottom: 17px;
 }
 .color{
     color:#5352ED;
 }
-.text{
+label{
     font-size: 24px;
 }
