@@ -16,13 +16,9 @@ ul,li{
     width: 1170px;
     margin: auto;
 }
-.btn{
-    display: inline-block;
+.title{
     background-color: #FEFEFE;
-    color:aliceblue;
-    padding: 1rem 1.5rem;
-    text-decoration: none;
-    border-radius: 3px;
-    margin-bottom: 100px;
-    
+    width: 1196px;
+    height: 83;
+    border-radius: 12px;
 }
