@@ -76,7 +76,7 @@ ul,li{
 }
 .conteiner p{
     font-size: 64px;
-    margin-top: 228px;
+    margin-top: 0px;
     margin-bottom: 17px;
 }
 .color{
@@ -88,4 +88,34 @@ label{
 .spam{
     display: flex;
 }
-
+.conteiner1{
+    margin-left: -950px;
+}
+.conteiner{
+    margin-top: 350px;
+}
+.footer p{
+    font-size: 16px;
+    color: #00000080;
+    margin-left: 30px;
+}
+.footer{
+    border: solid;
+    border-color: #7372FF;
+}
+.email{
+    background-color: #FEFEFE;
+    margin-left: 30px;
+    width: 475px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 28px;
+    border: solid;
+    border-color: #4443D0;
+}
+.email p{
+    font-size: 16px;
+    color: #9F9F9F;
+    margin-left: 22px;
+    margin-top: 15000000px;
+}
