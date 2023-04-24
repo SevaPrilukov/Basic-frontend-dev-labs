@@ -36,7 +36,20 @@ ul,li{
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 29px;
 }
 .menu li{
     margin-right: 60px;
 }
+.btn{
+    display: inline-block;
+    background-color:#FEFEFE;
+    color:#4443D0;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    border-color: #7372FF;
+}
+
