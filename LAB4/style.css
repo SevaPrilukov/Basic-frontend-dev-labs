@@ -85,3 +85,6 @@ ul,li{
 label{
     font-size: 24px;
 }
+.spam{
+    display: flex;
+}
