@@ -267,6 +267,55 @@ label{
     .container{
         width: 540px;
     }
+    .title{
+        background-color: #FEFEFE;
+        width: 390px;
+        height: 83;
+        border-radius: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 41px;
+        display: flex;
+    }
+    .menu{
+        display: none;
+    }
+    .btn1 {
+        display: inline-block;
+        background-color: #4443D0;
+        color: #FEFEFE;
+        padding: 0.8rem 1.5rem;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        border-color: #7372FF;
+        width: 60px;
+        height: 10px;
+        margin-top: 25px;
+        margin-left: 10px;
+        text-align: center;
+        margin-right: 20px;
+    }
+    }
+    .btn {
+        display: inline-block;
+        background-color: #FEFEFE;
+        color: #4443D0;
+        padding: 0.8rem 1.5rem;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        border: solid;
+        border-color: #7372FF;
+        width: 60px;
+        height: 8px;
+        margin-top: 25px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .conteiner1 {
+        margin-left: -200px;
+    }
 }
 @media screen and (max-width: 575px){
     .container{
