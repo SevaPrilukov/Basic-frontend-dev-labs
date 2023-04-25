@@ -126,7 +126,16 @@ label{
     margin-left: 22px;
     margin-top: 16px;
 }
-
+.header .show-menu{
+    display: block;
+    position: absolute;
+    margin-left: 225px;
+    margin-top: 90px;
+    background: #3584ea;
+}
+.header .show-menu li{
+    margin-bottom: 20px;
+}
 
 @media screen and (max-width: 1200px){
     .container{
