@@ -20,7 +20,7 @@ ul,li{
     width: 80px;
     display: none;
 }
-img{
+.menu-open1{
     width: 40%;
 }
 .title{
@@ -126,9 +126,7 @@ label{
     margin-left: 22px;
     margin-top: 16px;
 }
-.title show-menu{
-    display: block;
-}
+
 
 
 @media screen and (max-width: 1200px){
