@@ -16,6 +16,13 @@ ul,li{
     width: 1170px;
     margin: auto;
 }
+.menu-open{
+    width: 80px;
+    display: none;
+}
+.menu-open1{
+    width: 40%;
+}
 .title{
     background-color: #FEFEFE;
     width: 1196px;
@@ -266,6 +273,9 @@ label{
 @media screen and (max-width: 767px){
     .container{
         width: 540px;
+    }
+    .menu-open{
+    display: block;
     }
     .title{
         background-color: #FEFEFE;
