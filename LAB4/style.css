@@ -296,7 +296,6 @@ label{
         text-align: center;
         margin-right: 20px;
     }
-    }
     .btn {
         display: inline-block;
         background-color: #FEFEFE;
@@ -337,10 +336,87 @@ label{
         border: solid;
         border-color: #FEFEFE;
     }
+}
 
 @media screen and (max-width: 575px){
     .container{
         width: 100%;
         padding: 0 15px;
+    }
+    .title{
+        background-color: #FEFEFE;
+        width: 345px;
+        height: 83;
+        border-radius: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 41px;
+        display: flex;
+    }
+    .menu{
+        display: none;
+    }
+    .btn1 {
+        display: inline-block;
+        background-color: #4443D0;
+        color: #FEFEFE;
+        padding: 0.8rem 1.5rem;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        border-color: #7372FF;
+        width: 60px;
+        height: 10px;
+        margin-top: 20px;
+        margin-left: 10px;
+        text-align: center;
+        margin-right: 20px;
+    }
+    .btn {
+        display: inline-block;
+        background-color: #FEFEFE;
+        color: #4443D0;
+        padding: 0.8rem 1.5rem;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        border: solid;
+        border-color: #7372FF;
+        width: 60px;
+        height: 8px;
+        margin-top: 20px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    .conteiner1 {
+        margin-left: -200px;
+    }
+    .conteiner {
+        width: 1170px;
+        margin-top: 350px;
+        margin-left: 45px;
+        position: absolute;
+    }
+    .footer {
+        margin-top: -1px;
+        margin-left: 30px;
+        position: absolute;
+    }
+    .email {
+        background-color: #FEFEFE;
+        margin-left: 30px;
+        width: 275px;
+        height: 40px;
+        border-radius: 10px;
+        margin-bottom: -15px;
+        border: solid;
+        border-color: #FEFEFE;
+    }
+    .title h1 {
+        font-size: 24px;
+        margin-left: 30px;
+        margin-top: 25px;
+        margin-bottom: 16px;
+        margin-right: 0px;
     }
 }
