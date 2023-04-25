@@ -360,7 +360,7 @@ label{
         display: inline-block;
         background-color: #4443D0;
         color: #FEFEFE;
-        padding: 0.8rem 1.5rem;
+        padding: 0.8rem 0rem;
         text-decoration: none;
         border-radius: 5px;
         margin-bottom: 15px;
@@ -376,7 +376,7 @@ label{
         display: inline-block;
         background-color: #FEFEFE;
         color: #4443D0;
-        padding: 0.8rem 1.5rem;
+        padding: 0.8rem 0rem;
         text-decoration: none;
         border-radius: 5px;
         margin-bottom: 15px;
@@ -385,7 +385,7 @@ label{
         width: 60px;
         height: 8px;
         margin-top: 20px;
-        margin-left: 10px;
+        margin-left: 25px;
         text-align: center;
     }
     .conteiner1 {
