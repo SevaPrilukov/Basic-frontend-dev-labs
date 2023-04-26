@@ -143,7 +143,13 @@ label{
     }
 }
 @media screen and (max-width: 1199px){
-    .container{
+    .title{
+        width: 960px;
+    }
+    .spam{
+        width: 960px;
+    }
+    .footer{
         width: 960px;
     }
     .title{
@@ -194,7 +200,13 @@ label{
     
 }
 @media screen and (max-width: 991px){
-    .container{
+    .title{
+        width: 720px;
+    }
+    .spam{
+        width: 720px;
+    }
+    .footer{
         width: 720px;
     }
     .title{
@@ -280,7 +292,13 @@ label{
     }
 }
 @media screen and (max-width: 767px){
-    .container{
+    .title{
+        width: 540px;
+    }
+    .spam{
+        width: 540px;
+    }
+    .footer{
         width: 540px;
     }
     .menu-open{
@@ -358,7 +376,15 @@ label{
 }
 
 @media screen and (max-width: 575px){
-    .container{
+    .title{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .spam{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .footer{
         width: 100%;
         padding: 0 15px;
     }
