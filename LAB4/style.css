@@ -143,13 +143,7 @@ label{
     }
 }
 @media screen and (max-width: 1199px){
-    .title{
-        width: 960px;
-    }
-    .spam{
-        width: 960px;
-    }
-    .footer{
+    .container{
         width: 960px;
     }
     .title{
@@ -191,29 +185,16 @@ label{
     .conteiner{
         width: 1000px;
         margin: auto;
-        margin-left: 40px;
-        position: absolute;
-        margin-top: 300px;
     }
     .footer{
         margin-top: -360px;
         margin-left: 20px;
         position: absolute;
     }
-    .conteiner1 {
-        margin-top: -30px;
-        margin-left: 120px;
-    }
     
 }
 @media screen and (max-width: 991px){
-    .title{
-        width: 720px;
-    }
-    .spam{
-        width: 720px;
-    }
-    .footer{
+    .container{
         width: 720px;
     }
     .title{
@@ -299,13 +280,7 @@ label{
     }
 }
 @media screen and (max-width: 767px){
-    .title{
-        width: 540px;
-    }
-    .spam{
-        width: 540px;
-    }
-    .footer{
+    .container{
         width: 540px;
     }
     .menu-open{
@@ -383,21 +358,13 @@ label{
 }
 
 @media screen and (max-width: 575px){
-    .title{
-        width: 100%;
-        padding: 0 15px;
-    }
-    .spam{
-        width: 100%;
-        padding: 0 15px;
-    }
-    .footer{
+    .container{
         width: 100%;
         padding: 0 15px;
     }
     .title{
         background-color: #FEFEFE;
-        width: 335px;
+        width: 345px;
         height: 83;
         border-radius: 12px;
         margin-left: auto;
@@ -446,12 +413,12 @@ label{
     .conteiner {
         width: 1170px;
         margin-top: 350px;
-        margin-left: 25px;
+        margin-left: 45px;
         position: absolute;
     }
     .footer {
         margin-top: -1px;
-        margin-left: 10px;
+        margin-left: 36px;
         position: absolute;
     }
     .email {
