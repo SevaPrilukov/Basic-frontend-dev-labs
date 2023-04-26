@@ -131,10 +131,11 @@ label{
     position: absolute;
     margin-left: 225px;
     margin-top: 90px;
-    background: #3584ea;
+    background: rgba(0, 0, 0, 0.6);
 }
 .header .show-menu li{
     margin-bottom: 20px;
+    color: #FEFEFE;
 }
 
 @media screen and (max-width: 1200px){
