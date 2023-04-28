@@ -2,7 +2,7 @@
 
 .bg {
     position: page;
-    background: rgba(30, 144, 255, 0.5);
+    background: #1e90ff80;
 }
 
 /* Frame 1 */
@@ -438,6 +438,9 @@
         opacity: 0;
     }
     .navbar{
-        background-color:#2A92F9;
+        background-color:#8ec6ff;
+    }
+    .menu_btn_click{
+        margin-left: 10px;
     }
 }
