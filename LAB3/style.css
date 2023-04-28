@@ -38,7 +38,7 @@ ul,li {
 .header{
     width: auto;
     height: 600px;
-    background-color: #87509c;
+    background-color: hsl(283, 32%, 46%);
 }
 
 .nav {
