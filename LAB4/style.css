@@ -1,6 +1,6 @@
 /* Rectangle 2 */
 
-.Bg {
+.bg {
     position: page;
     background: rgba(30, 144, 255, 0.5);
 }
@@ -111,7 +111,6 @@
 .Home {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     color: #000000;
