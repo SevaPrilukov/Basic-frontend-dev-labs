@@ -1,443 +1,438 @@
-body {
-    padding: 0;
-    margin: 0;
+/* Rectangle 2 */
+
+.Bg {
+    position: page;
+    background: rgba(30, 144, 255, 0.5);
+}
+
+/* Frame 1 */
+
+.navbar {
+    height: 80px;
+    width: auto;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 0;
+    background: #FEFEFE;
+    border-radius: 12px;
+}
+
+
+/* LOGO */
+.logo {
+    padding-top: 20px;
+    padding-left: 60px;
     font-family: 'Roboto', sans-serif;
-    background-color: #1E90FF80;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #0A2541;
 }
-h1, h2, h3, h4, h5, h6 {
-    padding: 0; 
-    margin: 0;
-    text-transform: uppercase;
-}
-ul,li{
-    display: block;
-}
-.conteiner{
-    max-width: 1170px;
-    margin: auto;
-}
-.menu-open{
-    width: 80px;
+
+.menu_btn {
+    vertical-align: middle;
     display: none;
 }
-.menu-open1{
-    width: 40%;
+
+.menu_btn_click {
+    background: url("menu.png");
+    border: none;
+    display: none;
+    margin-top: -37px;
+
+    height: 32px;
+    width: 32px;
 }
-.title{
-    background-color: #FEFEFE;
-    width: 1196px;
-    height: 83;
-    border-radius: 12px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 41px;
+
+/* Group 1 */
+
+.menu {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: -29px;
+    z-index: 1;
+
 }
-.title h1{
-    font-size: 36px;
-    margin-left: 64px;
-    margin-top: 25px;
-    margin-bottom: 16px;
-    margin-right: 245px;
-}
-.menu{
+
+.menu2 {
     display: flex;
-    margin-right: 0px;
-    margin-top: 35px;
-    margin-bottom: 29px;
-    margin-left: 289;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin: -29px;
+    padding-right: 88px;
+    z-index: 1;
+
 }
-.menu li{
-    margin-right: 60px;
-}
-.btn{
-    display: inline-block;
-    background-color:#FEFEFE;
-    color:#4443D0;
-    padding: 1rem 1.5rem;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    border: solid;
-    border-color: #7372FF;
-    width: 80px;
-    height: 20;
-    margin-top: 15px;
-    margin-left: 45px;
-    text-align: center;
-}
-.btn1{
-    display: inline-block;
-    background-color:#4443D0;
-    color:#FEFEFE;
-    padding: 1rem 1.5rem;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    border-color: #7372FF;
-    width: 80px;
-    height: 20;
-    margin-top: 15px;
-    margin-left: 30px;
-    text-align: center;
-}
-.conteiner p{
-    font-size: 64px;
-    margin-top: 0px;
-    margin-bottom: 17px;
-    max-width: 100px;
-}
-.color{
-    color:#5352ED;
-}
-label{
-    font-size: 24px;
-}
-.spam{
+
+.navbar .show_menu {
     display: flex;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    left: 0;
+    top: 0;
+    width: 120px;
+    height: 100%;
+    padding: 55px 20px 20px 40px;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    align-content: space-between;
+    justify-content: flex-start;
 }
-.conteiner1{
-    margin-left: -950px;
+
+.navbar .show_menu2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    width: 120px;
+    padding: 40px 20px 20px 40px;
+    z-index: 2;
 }
-.conteiner{
-    margin-top: 350px;
+
+.navbar .show_menu span {
+    color: #ffffff;
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
 }
-.footer p{
+
+/* Home */
+
+.Home {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
     font-size: 16px;
-    color: #00000080;
-    margin-left: 30px;
+    line-height: 19px;
+    color: #000000;
 }
-.footer{
-    margin-top: -360px;
-    margin-left: 110px;
+
+.navbar .show_menu2 .Frame3 {
+    margin-right: 0;
+    margin-bottom: 20px;
 }
-.email{
-    background-color: #FEFEFE;
-    margin-left: 30px;
-    width: 475px;
+
+/* Illustrations */
+
+.Illustrations {
+    padding-left: 60px;
+    padding-right: 60px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+/* Contact */
+
+.Contact {
+    margin-right: 20px;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+/* Frame 3 */
+
+.Frame3 {
+    box-sizing: border-box;
+
+    width: 127px;
+    height: 41px;
+
+    margin-right: 50px;
+
+    background: #FFFFFF;
+    border: 1px solid #7372FF;
+    border-radius: 5px;
+}
+
+
+/* Sign up */
+
+.SignUp {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #4443D0;
+    z-index: 1;
+}
+
+
+/* Frame 2 */
+
+.Frame2 {
+    box-sizing: border-box;
+    width: 127px;
+    height: 41px;
+    background: #4443D0;
+    border-radius: 5px;
+}
+
+
+/* Sign in */
+
+.SignIn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+
+/* Frame 4 */
+
+.Frame4 {
+    position: absolute;
+    width: 127px;
+    height: 41px;
+    left: 122px;
+    top: 791px;
+
+    background: #4140CD;
+    border-radius: 5px;
+}
+
+/* Sign up */
+
+.SignUp2 {
+    position: absolute;
+    width: 55px;
+    height: 19px;
+    left: 36px;
+    top: 11px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    z-index: 1;
+
+}
+
+.article {
+    position: relative;
+    margin-left: 120px;
+    margin-top: 200px;
+    text-align: left;
+    color: #0A2541;
+    display: inline-block;
+}
+
+/* Make Your Business Stand out! */
+
+.article-header {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+
+    color: #0A2541;
+    z-index: -1;
+}
+
+/* We provide the best illutration packs avaliable on the market */
+
+.article-body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.form_button {
+    width: 127px;
+    height: 41px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #7372FF;
+    border-color: #7372FF;
+    border-width: 1px;
+    display: block;
+}
+
+.email-label {
+    display: block;
+    margin-bottom: 7px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.user-email {
+    margin-bottom: 30px;
+    display: block;
+    width: 450px;
     height: 50px;
     border-radius: 10px;
-    margin-bottom: 28px;
-    border: solid;
-    border-color:#FEFEFE;
-}
-.email p{
+    border-color: #2A92F9;
+    border-width: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 19px;
+    padding-left: 20px;
     color: #9F9F9F;
-    margin-left: 22px;
-    margin-top: 16px;
 }
-.header .show-menu{
-    display: block;
-    position: absolute;
-    margin-left: 225px;
+
+.enter-email-frame {
+    position: relative;
+    margin-left: 120px;
     margin-top: 90px;
-    background: rgba(0, 0, 0, 0.6);
-}
-.header .show-menu li{
-    margin-bottom: 20px;
-    color: #FEFEFE;
-}
-
-@media screen and (max-width: 1200px){
-    .container{
-        width: 1140px;
-    }
-}
-@media screen and (max-width: 1199px){
-    .container{
-        max-width: 960px;
-    }
-    .title{
-        background-color: #FEFEFE;
-        width: 950px;
-        height: 83;
-        border-radius: 12px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 41px;
-        display: flex;
-    }
-    .title h1{
-        font-size: 36px;
-        margin-left: 64px;
-        margin-top: 25px;
-        margin-bottom: 16px;
-        margin-right: 75px;
-    }
-    .btn{
-        display: inline-block;
-        background-color:#FEFEFE;
-        color:#4443D0;
-        padding: 1rem 1.5rem;
-        text-decoration: none;
-        border-radius: 5px;
-        margin-bottom: 15px;
-        border: solid;
-        border-color: #7372FF;
-        width: 80px;
-        height: 20;
-        margin-top: 15px;
-        margin-left: 0px;
-        text-align: center;
-    }
-    .foto{
-        margin-right: -80px;
-    }
-    .conteiner{
-        width: 1000px;
-        margin: auto;
-    }
-    .footer{
-        margin-top: -360px;
-        margin-left: 20px;
-        position: absolute;
-    }
-    
-}
-@media screen and (max-width: 991px){
-    .container{
-        max-width: 720px;
-    }
-    .title{
-        background-color: #FEFEFE;
-        width: 690px;
-        height: 83;
-        border-radius: 12px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 41px;
-        display: flex;
-    }
-    .title h1{
-        font-size: 36px;
-        margin-left: 30px;
-        margin-top: 25px;
-        margin-bottom: 16px;
-        margin-right: 0px;
-    }
-    .menu li{
-        margin-right: 30px;
-    }
-    .btn1{
-        display: inline-block;
-        background-color:#4443D0;
-        color:#FEFEFE;
-        padding: 1rem 1.5rem;
-        text-decoration: none;
-        border-radius: 5px;
-        margin-bottom: 15px;
-        border-color: #7372FF;
-        width: 80px;
-        height: 20;
-        margin-top: 15px;
-        margin-left: 30px;
-        text-align: center;
-        margin-right: 20px;
-    }
-    .foto{
-        margin-right: -80px;
-        width: 90%;
-        margin-left: 130px;
-        margin-top: -40px;
-    }
-    .conteiner p{
-        font-size: 32px;
-        margin-top: 0px;
-        margin-bottom: 17px;
-    }
-    label{
-        font-size: 12px;
-    }
-    .footer p{
-        font-size: 12px;
-        color: #00000080;
-        margin-left: 30px;
-    }
-    .email{
-        background-color: #FEFEFE;
-        margin-left: 30px;
-        width: 275px;
-        height: 40px;
-        border-radius: 10px;
-        margin-bottom: 28px;
-        border: solid;
-        border-color:#FEFEFE;
-    }
-    .email p{
-        font-size: 12px;
-        color: #9F9F9F;
-        margin-left: 22px;
-        margin-top: 16px;
-    }
-    .conteiner{
-        width: 1170px;
-        margin-top: 200px;
-        margin-left: 45px;
-    }
-    .footer{
-        margin-top: -315px;
-        margin-left: 25px;
-        position: absolute;
-    }
-}
-@media screen and (max-width: 767px){
-    .container{
-        max-width: 540px;
-    }
-    .menu-open{
+    text-align: left;
+    color: #0A2541;
     display: block;
+    z-index: 1;
+
+}
+
+/* Saly-1 */
+
+.saly-image {
+    background: url(Saly-3.png);
+    width: 897px;
+    height: 818px;
+    display: block;
+    margin-top: -700px;
+    margin-right: 100px;
+    margin-left: auto;
+    transform: rotate(-15.51deg);
+}
+
+@media screen and (max-width: 1441px) {
+
+}
+
+@media screen and (max-width: 1360px) {
+    .saly-image {
+        width: 882px;
+        height: 862px;
+        margin-top: -735px;
+        margin-right: -96px;
+        scale: 0.8;
     }
-    .title{
-        background-color: #FEFEFE;
-        width: 390px;
-        height: 83;
-        border-radius: 12px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 41px;
-        display: flex;
+
+    .article {
+        margin-left: 70px;
+        margin-top: 190px;
     }
-    .menu{
-        display: none;
+
+    .enter-email-frame {
+        margin-left: 70px;
+        margin-top: 90px;
     }
-    .btn1 {
-        display: inline-block;
-        background-color: #4443D0;
-        color: #FEFEFE;
-        padding: 0.8rem 1.5rem;
-        text-decoration: none;
-        border-radius: 5px;
-        margin-bottom: 15px;
-        border-color: #7372FF;
-        width: 60px;
-        height: 10px;
-        margin-top: 25px;
-        margin-left: 10px;
-        text-align: center;
-        margin-right: 20px;
+
+    .navbar {
+        margin-left: 70px;
+        margin-right: 70px;
     }
-    .btn {
-        display: inline-block;
-        background-color: #FEFEFE;
-        color: #4443D0;
-        padding: 0.8rem 1.5rem;
-        text-decoration: none;
-        border-radius: 5px;
-        margin-bottom: 15px;
-        border: solid;
-        border-color: #7372FF;
-        width: 60px;
-        height: 8px;
-        margin-top: 25px;
-        margin-left: 20px;
-        text-align: center;
+
+    .Illustrations {
+        padding-left: 18px;
+        padding-right: 18px;
     }
-    .conteiner1 {
-        margin-left: -200px;
+
+    .Frame3 {
+        margin-right: 50px;
     }
-    .conteiner {
-        width: 1170px;
-        margin-top: 350px;
-        margin-left: 45px;
-        position: absolute;
+
+    .menu2 {
+        padding-right: 58px;
     }
-    .footer {
-        margin-top: -30px;
-        margin-left: 36px;
-        position: absolute;
-    }
-    .email {
-        background-color: #FEFEFE;
-        margin-left: 30px;
-        width: 275px;
-        height: 40px;
-        border-radius: 10px;
-        margin-bottom: -15px;
-        border: solid;
-        border-color: #FEFEFE;
+
+    .Contact {
+        margin-right: 60px;
     }
 }
 
-@media screen and (max-width: 575px){
-    .container{
-        max-width: 100%;
-        padding: 0 15px;
+@media screen and (max-width: 1040px) {
+    .navbar {
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 100px;
     }
-    .title{
-        background-color: #FEFEFE;
-        width: 345px;
-        height: 83;
-        border-radius: 12px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 41px;
-        display: flex;
+
+    .saly-image {
+        width: 883px;
+        height: 810px;
+        margin-top: -205px;
+        margin-right: 0;
+        margin-left: -271px;
     }
-    .menu{
+
+    .article {
+        margin-left: 40px;
+        margin-top: 70px;
+    }
+
+    .enter-email-frame {
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .Home {
+        margin-left: -120px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu {
         display: none;
     }
-    .btn1 {
-        display: inline-block;
-        background-color: #4443D0;
-        color: #FEFEFE;
-        padding: 0.8rem 0rem;
-        text-decoration: none;
-        border-radius: 5px;
-        margin-bottom: 15px;
-        border-color: #7372FF;
-        width: 60px;
-        height: 10px;
-        margin-top: 20px;
-        margin-left: 10px;
-        text-align: center;
+
+    .menu2 {
+        display: none;
+    }
+
+    .menu_btn_click {
+        display: block;
+        margin-left: auto;
         margin-right: 20px;
     }
-    .btn {
-        display: inline-block;
-        background-color: #FEFEFE;
-        color: #4443D0;
-        padding: 0.8rem 0rem;
-        text-decoration: none;
-        border-radius: 5px;
-        margin-bottom: 15px;
-        border: solid;
-        border-color: #7372FF;
-        width: 60px;
-        height: 8px;
-        margin-top: 20px;
-        margin-left: 25px;
-        text-align: center;
-    }
-    .conteiner1 {
-        margin-left: -200px;
-    }
-    .conteiner {
-        width: 1170px;
-        margin-top: 350px;
-        margin-left: 45px;
-        position: absolute;
-    }
-    .footer {
-        margin-top: -1px;
-        margin-left: 36px;
-        position: absolute;
-    }
-    .email {
-        background-color: #FEFEFE;
-        margin-left: 30px;
-        width: 275px;
-        height: 40px;
-        border-radius: 10px;
-        margin-bottom: -10px;
-        border: solid;
-        border-color: #FEFEFE;
-    }
-    .title h1 {
-        font-size: 24px;
-        margin-left: 30px;
-        margin-top: 25px;
-        margin-bottom: 16px;
-        margin-right: 0px;
+}
+
+@media screen and (max-width: 575px) {
+    .saly-image {
+        scale: 0.7;
+        width: 873px;
+        height: 814px;
+        margin-top: -205px;
+        margin-right: 0;
+        margin-left: -300px;
     }
 }

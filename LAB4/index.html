@@ -2,54 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>3d Landing</title>
+    <link href="style.css" rel="stylesheet">
 </head>
-<body>
-    <header class="header">
-        <div class="title">
-            <h1>LOGO</h1>
-            <ul class="menu">
-                <li>Home</li>
-                <li>illustrations</li>
-                <li>Contact</li>
-            </ul>
-            <a href="#" class="btn">
-                Sing up
-            </a>
-            <a href="#" class="btn1"> 
-                Sing in
-            </a>
-            <button class="menu-open">
-                <img class="menu-open1" src="photo.img/menu.svg" alt="Open menu">
-            </button>
+<body class="Bg">
+<div>
+    <div class="navbar">
+        <div class="logo"> LOGO</div>
+        <button class="menu_btn_click">
+        </button>
+        <div class="menu">
+            <span class="Home">Home</span>
+            <span class="Illustrations">Illustrations</span>
+            <span class="Contact">Contact</span>
         </div>
-    </header>
-    <div class="spam">
-        <div class="conteiner">
-            <p><b>Make Your <span class="color">Business</span><br>Stand out!</b></p>
-            <label>We provide the best illutration packs avaliable on<br> the market</label>
-        </div>
-        <div class="conteiner1">
-            <img class="foto" src="Photo.img/Saly-1.img" alt="photo 1"> 
+        <div class="menu2">
+            <button class="Frame3"><span class="SignUp">Sign up</span></button>
+            <button class="Frame2"><span class="SignIn">Sign in</span></button>
         </div>
     </div>
-    <div class="footer">
-        <p>Join our newsletter</p>
-        <div class="email">
-            <p>Email</p>
-        </div>
-        <a href="#" class="btn1">
-            Sing in
-        </a>
+    <div class="article">
+        <span class="article-header"><b> Make Your <span style="color: #5352ED;">Business</span><br> Stand out! </b></span>
+        <p class="article-body"> We provide the best illutration pack avalible on<br> the market </p>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
-    <script src="js/main.js"></script>
+    <div class="enter-email-frame">
+        <label class="email-label">Join our newsletter</label>
+        <input class="user-email" placeholder="Email" type="text">
+        <button class="form_button">Sign Up</button>
+    </div>
+    <div class="saly-image"></div>
+</div>
+<script crossorigin="anonymous"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
