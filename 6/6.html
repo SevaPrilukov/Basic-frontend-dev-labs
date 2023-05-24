@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Изменение состояния картинок</title>
+  <style>
+    .selected {
+      border: 2px solid red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Изменение состояния картинок</h1>
+  <div id="imageContainer">
+    <img src="image1.jpg" onclick="toggleImageState(this)">
+    <img src="image2.jpg" onclick="toggleImageState(this)">
+    <img src="image3.jpg" onclick="toggleImageState(this)">
+  </div>
+  <p><a href="#" onclick="deleteSelectedImages()">Удалить</a></p>
+
+  <script>
+    function toggleImageState(image) {
+      image.classList.toggle("selected");
+    }
+
+    function deleteSelectedImages() {
+      var imageContainer = document.getElementById("imageContainer");
+      var selectedImages = imageContainer.getElementsByClassName("selected");
+      while (selectedImages.length > 0) {
+        selectedImages[0].remove();
+      }
+    }
+  </script>
+</body>
+</html>
