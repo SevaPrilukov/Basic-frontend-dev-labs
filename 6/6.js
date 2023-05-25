@@ -1,14 +1,14 @@
 function toggleImageState(image) {
   if (!image.classList.contains("selected")) {
-    image.classList.add("selected");
-    image.style.border = "6px solid purple";
-    image.setAttribute("data-deletable", "true");
+    image.classList.add("selected"); // Добавляем класс "selected" к изображению
+    image.style.border = "6px solid purple"; // Устанавливаем фиолетовую границу
+    image.setAttribute("data-deletable", "true"); // Устанавливаем атрибут "data-deletable" со значением "true"
   } else if (image.style.border === "6px solid red") {
-    image.style.border = "6px solid purple"; // Изменяем цвет границы на фиолетовый
+    image.style.border = "6px solid purple"; // Если граница изображения уже красная, изменяем цвет границы на фиолетовый
     image.setAttribute("data-deletable", "true");
   } else {
-    image.style.border = "6px solid red";
-    image.setAttribute("data-deletable", "false");
+    image.style.border = "6px solid red"; // Если изображение уже выбрано и граница не красная, устанавливаем красную границу
+    image.setAttribute("data-deletable", "false"); // Устанавливаем атрибут "data-deletable" со значением "false"
   }
 }
 
